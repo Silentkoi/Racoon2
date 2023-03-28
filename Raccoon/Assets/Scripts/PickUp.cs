@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PickUp : MonoBehaviour
 {
-    private bool pickUpAllowed;
+    //private bool pickUpAllowed;
     private GameObject player;
 
     // Start is called before the first frame update
@@ -26,10 +26,10 @@ public class PickUp : MonoBehaviour
     {
       if (collision.tag == "Player")
         {
-            pickUpAllowed = true;
+           // pickUpAllowed = true;
             Destroy(gameObject);
             Debug.Log("Collected");
-            player.GetComponent<PlayerMovement>().redPoint++;
+            player.GetComponent<PlayerController>().redPoint++;
 
         }
     }

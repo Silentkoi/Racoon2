@@ -9,6 +9,8 @@ public class PlayerController : MonoBehaviour
     private float horizontalInput;
     private float forwardInput;
 
+    public int redPoint;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,4 +30,6 @@ public class PlayerController : MonoBehaviour
         // Turn the Racoon
         transform.Rotate(Vector3.up, turnSpeed * horizontalInput * Time.deltaTime);
     }
+
+    
 }

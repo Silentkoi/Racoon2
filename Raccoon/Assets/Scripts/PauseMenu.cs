@@ -17,10 +17,12 @@ public class PauseMenu : MonoBehaviour
             if (GameIsPaused)
             {
                 Resume();
+                Debug.Log("Resume");
             }
             else
             {
                 Pause();
+                Debug.Log("Pause");
             }
         }
 
@@ -45,7 +47,7 @@ public class PauseMenu : MonoBehaviour
     public void QuitGame()
     {
         Debug.Log("QUIT");
-        SceneManager.LoadScene("Main");
+        SceneManager.LoadScene("RacoonFriesYikesV2");
     }
 }
 

@@ -15,6 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/OptionInfo.unity
     guid: a71d84c9c962cbc4bbfce8179a40e59a
   - enabled: 1
-    path: Assets/RacoonFriesYikesV2.unity
+    path: Assets/Scenes/RacoonFriesYikesV2.unity
     guid: f44ed570d73488c4bbdfae2439850921
   m_configObjects: {}
